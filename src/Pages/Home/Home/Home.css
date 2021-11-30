@@ -1,0 +1,29 @@
+.home-section{
+    overflow:hidden;
+}
+.menu-section{
+    background-color:rgb(48, 46, 170);
+    padding:0px;
+    height: 35rem;
+}
+.menu-items{
+    color:#fff;
+    padding-top:2rem;
+    padding-bottom: 1rem;
+}
+.menu-items h2:hover {
+background-color: rgb(81, 79, 168);;
+padding-bottom: .3rem;
+}
+.my-img{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+
+
+.dashboard-section{
+    padding:0px;
+}

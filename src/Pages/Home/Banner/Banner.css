@@ -1,0 +1,46 @@
+.Banner-section{
+    background-image: linear-gradient(rgba(10, 10, 10, 0.7), rgba(3,3,5,0.7)),url('../../../Images/banner.jpg');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:37rem;
+    width:auto;
+    color:#fff;
+    background-position: center;
+}
+
+.banner-details{
+    
+    justify-content:center;
+    align-items:center;
+    padding-top: 13rem;
+}
+.banner-details h2 {
+    font-weight: bold;
+    font-size: 3rem;
+    font-family:'Times New Roman', Times, serif;
+}
+.half-name{
+    color:rgb(250, 214, 9);
+    text-transform:uppercase;
+
+}
+.resume-button{
+    background-color: rgb(5, 67, 236);
+    border:none;
+    padding:10px 20px;
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-left: .5rem;
+}
+.resume-button a {
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.social-link a{
+    color:#fff;
+    padding-left:1rem;
+    font-size: 2rem;
+}
