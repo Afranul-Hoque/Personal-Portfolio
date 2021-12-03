@@ -52,7 +52,7 @@ function App() {
         <Route path="/blogs">
           <Navigation></Navigation>
           <Blogs></Blogs>
-          <Footer></Footer>
+
         </Route>
 
         <Route path="/contacts">
