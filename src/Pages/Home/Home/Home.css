@@ -2,7 +2,7 @@
     overflow:hidden;
 }
 .menu-section{
-    background-color:rgb(48, 46, 170);
+    background-color:rgb(101, 101, 107);
     padding:0px;
     height: 35rem;
 }
@@ -16,12 +16,14 @@ background-color: rgb(81, 79, 168);;
 padding-bottom: .3rem;
 }
 .my-img{
-    width:200px;
-    height: 200px;
+    width:90%;
+    height: 90%;
     border-radius: 50%;
 }
-
-
+/* 
+#sticky-sidebar {
+    position: fixed ;
+    } */
 
 
 .dashboard-section{

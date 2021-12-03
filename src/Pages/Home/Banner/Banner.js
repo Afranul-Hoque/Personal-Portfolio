@@ -7,11 +7,12 @@ import resume from '../../../resume/Afranul Hoque-Full Stack Developer.pdf'
 
 const Banner = () => {
     return (
-        <div className="Banner-section">
-            <div className="d-flex banner-details ">
+        <div className="Banner-section ps-4">
+
+            <div className="d-flex banner-details  pe-3">
                 <div >
                     <Fade top big>
-                        <h2 >Hi, I am <span className="half-name">Afranul Hoque</span> </h2>
+                        <h2 >Hi, I am <span className="half-name ">Afranul Hoque</span> </h2>
                     </Fade>
 
                     <Fade right big>
@@ -47,12 +48,15 @@ const Banner = () => {
 
 
 
+
+
+
                 </div>
-
-
             </div>
+        </div>
 
-        </div >
+
+
     );
 };
 

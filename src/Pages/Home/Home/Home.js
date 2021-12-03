@@ -1,30 +1,20 @@
 import React from 'react';
-import './Home.css'
-import rafi from '../../../Images/new2.jpg'
+import About from '../../About/About';
+import Navigation from '../../Sharing/Navigation/Navigation';
 import Banner from '../Banner/Banner';
+import Contacts from '../Contacts/Contacts';
+import Footer from '../Footer/Footer';
+import Projects from '../Projects/Projects';
+
 const Home = () => {
     return (
-        <div className="home-section">
-            <div className="row">
-                <div className="col-md-2 text-center menu-section">
-                    <div>
-                        <div>
-                            <img className="img-fluid my-img" src={rafi} alt="" />
-                        </div>
-                        <div className="menu-items  ">
-                            <h3>Home</h3>
-                            <h3>About</h3>
-                            <h3>Contact</h3>
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div className="col-md-10 dashboard-section">
-                    <Banner></Banner>
-                </div>
-            </div>
+        <div>
+            <Navigation></Navigation>
+            <Banner></Banner>
+            <About></About>
+            <Projects></Projects>
+            <Contacts></Contacts>
+            <Footer></Footer>
         </div>
     );
 };

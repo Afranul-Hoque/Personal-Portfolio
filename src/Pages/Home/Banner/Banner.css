@@ -1,9 +1,10 @@
 .Banner-section{
+    overflow: hidden;
     background-image: linear-gradient(rgba(10, 10, 10, 0.7), rgba(3,3,5,0.7)),url('../../../Images/banner.jpg');
 
     background-repeat: no-repeat;
     background-size: cover;
-    height:37rem;
+    height:35rem;
     width:auto;
     color:#fff;
     background-position: center;
