@@ -5,12 +5,12 @@ import Banner from '../Banner/Banner';
 import Contacts from '../Contacts/Contacts';
 import Footer from '../Footer/Footer';
 import Projects from '../Projects/Projects';
+import NewBanner from '../NewBanner/NewBanner'
 
 const Home = () => {
     return (
         <div>
-            <Navigation></Navigation>
-            <Banner></Banner>
+            <NewBanner></NewBanner>
             <About></About>
             <Projects></Projects>
             <Contacts></Contacts>

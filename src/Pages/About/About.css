@@ -22,3 +22,13 @@
     font-size : 1.5rem;
     font-weight: 400;
 }
+.main-name{
+    color:#2b2b5d;
+    text-transform:uppercase;
+    font-weight: bold;
+}
+@media screen and (max-width: 992px) {
+    .about-img{
+        padding-top:5rem;
+    }
+  }

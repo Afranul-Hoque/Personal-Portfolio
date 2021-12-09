@@ -18,7 +18,7 @@ const About = () => {
                     <Fade left>
                         <div>
 
-                            <h2 >I am <span className="half-name">Afranul Hoque</span> </h2>
+                            <h2 >I am <span className="main-name">Afranul Hoque</span> </h2>
                             <p className="about-description mt-3"> I am a Full Stack MERN Developer.I have experience making websites using React js, Node js, Firebase Authentication, MongoDB, Express, Javascript.
                                 Building User Friendly, Dynamic, UI-based websites is truly a passion of mine and I am confident.I actively seek out new technologies and stay up to date on industry trends and advancements. I have the interest to work with a team and project-based.
 
@@ -32,7 +32,7 @@ const About = () => {
 
 
 
-                <div className="col-md-5">
+                <div className="col-md-5 about-img">
                     <Fade right big>
                         <img className="img-fluid" src={programmer} alt="" />
 
